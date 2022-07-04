@@ -1,0 +1,350 @@
+2022-07-04 07:41:40.431  WARN 19360 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h47m46s461ms763µs700ns).
+2022-07-04 08:53:11.447  INFO 30572 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 30572 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 08:53:11.457 DEBUG 30572 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 08:53:11.466  INFO 30572 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 08:53:13.068  INFO 30572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 08:53:13.077  INFO 30572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 08:53:13.077  INFO 30572 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 08:53:13.228  INFO 30572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 08:53:13.228  INFO 30572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1663 ms
+2022-07-04 08:53:16.038  INFO 30572 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 08:53:16.105  INFO 30572 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 08:53:16.315  INFO 30572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 08:53:16.315  INFO 30572 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 08:53:16.324  INFO 30572 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 08:53:16.349  INFO 30572 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 08:53:16.508  INFO 30572 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 5.645 seconds (JVM running for 7.835)
+2022-07-04 08:53:39.481  INFO 30572 --- [http-nio-9002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 08:53:39.482  INFO 30572 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 08:53:39.490  INFO 30572 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-07-04 08:53:57.381  INFO 30572 --- [http-nio-9002-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-04 08:53:57.615  INFO 30572 --- [http-nio-9002-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-04 08:53:57.624 DEBUG 30572 --- [http-nio-9002-exec-3] c.t.m.mapper.UserMapper.selectOne        : ==>  Preparing: SELECT id,name,password,city,create_time FROM user WHERE (name = ?) 
+2022-07-04 08:53:57.649 DEBUG 30572 --- [http-nio-9002-exec-3] c.t.m.mapper.UserMapper.selectOne        : ==> Parameters: sdu01(String)
+2022-07-04 08:53:57.664 DEBUG 30572 --- [http-nio-9002-exec-3] c.t.m.mapper.UserMapper.selectOne        : <==      Total: 0
+2022-07-04 09:04:17.388  INFO 35492 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 35492 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 09:04:17.394 DEBUG 35492 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 09:04:17.394  INFO 35492 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 09:04:18.578  INFO 35492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 09:04:18.584  INFO 35492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 09:04:18.584  INFO 35492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 09:04:18.718  INFO 35492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 09:04:18.718  INFO 35492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1281 ms
+2022-07-04 09:04:21.480  INFO 35492 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 09:04:21.541  INFO 35492 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 09:04:21.733  INFO 35492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 09:04:21.733  INFO 35492 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 09:04:21.733  INFO 35492 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 09:04:21.763  INFO 35492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 09:04:21.918  INFO 35492 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 4.976 seconds (JVM running for 7.198)
+2022-07-04 09:05:01.866  INFO 35492 --- [http-nio-9002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 09:05:01.867  INFO 35492 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 09:05:01.877  INFO 35492 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-07-04 09:05:01.989  INFO 35492 --- [http-nio-9002-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-04 09:05:02.176  INFO 35492 --- [http-nio-9002-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-04 09:05:02.183 DEBUG 35492 --- [http-nio-9002-exec-1] c.t.m.mapper.UserMapper.selectOne        : ==>  Preparing: SELECT id,name,password,city,create_time FROM user WHERE (name = ?) 
+2022-07-04 09:05:02.209 DEBUG 35492 --- [http-nio-9002-exec-1] c.t.m.mapper.UserMapper.selectOne        : ==> Parameters: sdu01(String)
+2022-07-04 09:05:02.226 DEBUG 35492 --- [http-nio-9002-exec-1] c.t.m.mapper.UserMapper.selectOne        : <==      Total: 0
+2022-07-04 09:05:02.232 DEBUG 35492 --- [http-nio-9002-exec-1] c.t.mallserver.mapper.UserMapper.insert  : ==>  Preparing: INSERT INTO user ( name, password ) VALUES ( ?, ? ) 
+2022-07-04 09:05:02.233 DEBUG 35492 --- [http-nio-9002-exec-1] c.t.mallserver.mapper.UserMapper.insert  : ==> Parameters: sdu01(String), 1(String)
+2022-07-04 09:05:02.248 DEBUG 35492 --- [http-nio-9002-exec-1] c.t.mallserver.mapper.UserMapper.insert  : <==    Updates: 1
+2022-07-04 09:05:02.253 DEBUG 35492 --- [http-nio-9002-exec-1] c.t.m.mapper.UserMapper.selectOne        : ==>  Preparing: SELECT id,name,password,city,create_time FROM user WHERE (name = ? AND password = ?) 
+2022-07-04 09:05:02.253 DEBUG 35492 --- [http-nio-9002-exec-1] c.t.m.mapper.UserMapper.selectOne        : ==> Parameters: sdu01(String), 1(String)
+2022-07-04 09:05:02.256 DEBUG 35492 --- [http-nio-9002-exec-1] c.t.m.mapper.UserMapper.selectOne        : <==      Total: 1
+2022-07-04 09:05:06.135 DEBUG 35492 --- [http-nio-9002-exec-2] c.t.m.mapper.UserMapper.selectOne        : ==>  Preparing: SELECT id,name,password,city,create_time FROM user WHERE (name = ?) 
+2022-07-04 09:05:06.136 DEBUG 35492 --- [http-nio-9002-exec-2] c.t.m.mapper.UserMapper.selectOne        : ==> Parameters: sdu01(String)
+2022-07-04 09:05:06.137 DEBUG 35492 --- [http-nio-9002-exec-2] c.t.m.mapper.UserMapper.selectOne        : <==      Total: 1
+2022-07-04 09:49:54.021  INFO 8652 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 8652 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 09:49:54.021 DEBUG 8652 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 09:49:54.021  INFO 8652 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 09:49:55.275  INFO 8652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 09:49:55.283  INFO 8652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 09:49:55.283  INFO 8652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 09:49:55.402  INFO 8652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 09:49:55.402  INFO 8652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1336 ms
+2022-07-04 09:49:58.946  INFO 8652 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 09:49:59.012  INFO 8652 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 09:49:59.190  INFO 8652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 09:49:59.190  INFO 8652 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 09:49:59.197  INFO 8652 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 09:49:59.212  INFO 8652 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 09:49:59.388  INFO 8652 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 5.81 seconds (JVM running for 7.9)
+2022-07-04 09:50:10.163  INFO 8652 --- [http-nio-9002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 09:50:10.164  INFO 8652 --- [http-nio-9002-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 09:50:10.170  INFO 8652 --- [http-nio-9002-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-07-04 09:51:15.525  INFO 8652 --- [http-nio-9002-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-04 09:51:15.787  INFO 8652 --- [http-nio-9002-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-04 09:51:15.790 DEBUG 8652 --- [http-nio-9002-exec-8] c.t.mallserver.mapper.ItemMapper.insert  : ==>  Preparing: INSERT INTO item ( category_id, name, price, image, item_desc ) VALUES ( ?, ?, ?, ?, ? ) 
+2022-07-04 09:51:15.817 DEBUG 8652 --- [http-nio-9002-exec-8] c.t.mallserver.mapper.ItemMapper.insert  : ==> Parameters: 1(Integer), wwwww(String), 20(Integer), 5.png(String), www(String)
+2022-07-04 09:51:15.817 DEBUG 8652 --- [http-nio-9002-exec-8] c.t.mallserver.mapper.ItemMapper.insert  : <==    Updates: 1
+2022-07-04 10:38:36.469  INFO 2392 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 2392 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 10:38:36.469 DEBUG 2392 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 10:38:36.469  INFO 2392 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 10:38:37.684  INFO 2392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 10:38:37.689  INFO 2392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 10:38:37.689  INFO 2392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 10:38:37.813  INFO 2392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 10:38:37.813  INFO 2392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1304 ms
+2022-07-04 10:38:39.944  INFO 2392 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 10:38:39.998  INFO 2392 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 10:38:40.197  INFO 2392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 10:38:40.197  INFO 2392 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 10:38:40.202  INFO 2392 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 10:38:40.222  INFO 2392 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 10:38:40.350  INFO 2392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingGET_1
+2022-07-04 10:38:40.350  INFO 2392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingHEAD_1
+2022-07-04 10:38:40.350  INFO 2392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPOST_1
+2022-07-04 10:38:40.350  INFO 2392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPUT_1
+2022-07-04 10:38:40.350  INFO 2392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPATCH_1
+2022-07-04 10:38:40.350  INFO 2392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingDELETE_1
+2022-07-04 10:38:40.350  INFO 2392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingOPTIONS_1
+2022-07-04 10:38:40.350  INFO 2392 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingTRACE_1
+2022-07-04 10:38:40.394  INFO 2392 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 4.358 seconds (JVM running for 6.232)
+2022-07-04 10:39:26.376  INFO 2392 --- [http-nio-9002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 10:39:26.376  INFO 2392 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 10:39:26.382  INFO 2392 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-07-04 10:39:51.728  INFO 2392 --- [http-nio-9002-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-04 10:39:51.915  INFO 2392 --- [http-nio-9002-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-04 10:39:51.922 DEBUG 2392 --- [http-nio-9002-exec-4] c.t.m.mapper.ItemMapper.selectList       : ==>  Preparing: SELECT id,category_id,name,price,image,item_desc FROM item 
+2022-07-04 10:39:51.948 DEBUG 2392 --- [http-nio-9002-exec-4] c.t.m.mapper.ItemMapper.selectList       : ==> Parameters: 
+2022-07-04 10:39:51.971 DEBUG 2392 --- [http-nio-9002-exec-4] c.t.m.mapper.ItemMapper.selectList       : <==      Total: 9
+2022-07-04 10:54:57.698  INFO 972 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 972 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 10:54:57.708 DEBUG 972 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 10:54:57.708  INFO 972 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 10:54:58.899  INFO 972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 10:54:58.907  INFO 972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 10:54:58.907  INFO 972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 10:54:59.043  INFO 972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 10:54:59.043  INFO 972 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1279 ms
+2022-07-04 10:55:01.641  INFO 972 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 10:55:01.705  INFO 972 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 10:55:01.929  INFO 972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 10:55:01.929  INFO 972 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 10:55:01.929  INFO 972 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 10:55:01.953  INFO 972 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 10:55:02.081  INFO 972 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingGET_1
+2022-07-04 10:55:02.081  INFO 972 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingHEAD_1
+2022-07-04 10:55:02.081  INFO 972 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPOST_1
+2022-07-04 10:55:02.081  INFO 972 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPUT_1
+2022-07-04 10:55:02.081  INFO 972 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPATCH_1
+2022-07-04 10:55:02.081  INFO 972 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingDELETE_1
+2022-07-04 10:55:02.081  INFO 972 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingOPTIONS_1
+2022-07-04 10:55:02.081  INFO 972 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingTRACE_1
+2022-07-04 10:55:02.137  INFO 972 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 4.891 seconds (JVM running for 6.832)
+2022-07-04 10:55:05.493  INFO 972 --- [http-nio-9002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 10:55:05.493  INFO 972 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 10:55:05.501  INFO 972 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-07-04 10:55:15.021  INFO 972 --- [http-nio-9002-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-04 10:55:15.200  INFO 972 --- [http-nio-9002-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-04 10:55:15.207 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.ItemMapper.selectList       : ==>  Preparing: SELECT id,category_id,name,price,image,item_desc FROM item 
+2022-07-04 10:55:15.233 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.ItemMapper.selectList       : ==> Parameters: 
+2022-07-04 10:55:15.255 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.ItemMapper.selectList       : <==      Total: 9
+2022-07-04 10:55:15.289 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 10:55:15.289 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 10:55:15.292 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 10:55:15.300 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 10:55:15.300 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 10:55:15.302 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 10:55:15.304 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 10:55:15.304 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 2(Integer)
+2022-07-04 10:55:15.306 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 10:55:15.308 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 10:55:15.308 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 2(Integer)
+2022-07-04 10:55:15.309 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 10:55:15.311 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 10:55:15.311 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 10:55:15.312 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 10:55:15.313 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 10:55:15.313 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 10:55:15.314 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 10:55:15.315 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 10:55:15.316 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 10:55:15.318 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 10:55:15.318 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 10:55:15.318 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 10:55:15.318 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 10:55:15.318 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 10:55:15.318 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 10:55:15.324 DEBUG 972 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:15:06.183  INFO 3904 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 3904 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 11:15:06.183 DEBUG 3904 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 11:15:06.183  INFO 3904 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 11:15:07.291  INFO 3904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 11:15:07.314  INFO 3904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 11:15:07.314  INFO 3904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 11:15:07.442  INFO 3904 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 11:15:07.442  INFO 3904 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1212 ms
+2022-07-04 11:15:09.702  INFO 3904 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 11:15:09.772  INFO 3904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 11:15:09.958  INFO 3904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 11:15:09.958  INFO 3904 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 11:15:09.958  INFO 3904 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 11:15:09.981  INFO 3904 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 11:15:10.092  INFO 3904 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingGET_1
+2022-07-04 11:15:10.092  INFO 3904 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingHEAD_1
+2022-07-04 11:15:10.092  INFO 3904 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPOST_1
+2022-07-04 11:15:10.092  INFO 3904 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPUT_1
+2022-07-04 11:15:10.092  INFO 3904 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPATCH_1
+2022-07-04 11:15:10.092  INFO 3904 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingDELETE_1
+2022-07-04 11:15:10.092  INFO 3904 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingOPTIONS_1
+2022-07-04 11:15:10.092  INFO 3904 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingTRACE_1
+2022-07-04 11:15:10.150  INFO 3904 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 4.427 seconds (JVM running for 6.322)
+2022-07-04 11:15:46.189  INFO 2900 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 2900 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 11:15:46.198 DEBUG 2900 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 11:15:46.198  INFO 2900 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 11:15:47.371  INFO 2900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 11:15:47.380  INFO 2900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 11:15:47.380  INFO 2900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 11:15:47.517  INFO 2900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 11:15:47.517  INFO 2900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1285 ms
+2022-07-04 11:15:49.763  INFO 2900 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 11:15:49.826  INFO 2900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 11:15:50.015  INFO 2900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 11:15:50.015  INFO 2900 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 11:15:50.015  INFO 2900 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 11:15:50.040  INFO 2900 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 11:15:50.166  INFO 2900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingGET_1
+2022-07-04 11:15:50.166  INFO 2900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingHEAD_1
+2022-07-04 11:15:50.166  INFO 2900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPOST_1
+2022-07-04 11:15:50.166  INFO 2900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPUT_1
+2022-07-04 11:15:50.166  INFO 2900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPATCH_1
+2022-07-04 11:15:50.166  INFO 2900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingDELETE_1
+2022-07-04 11:15:50.166  INFO 2900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingOPTIONS_1
+2022-07-04 11:15:50.166  INFO 2900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingTRACE_1
+2022-07-04 11:15:50.223  INFO 2900 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 4.455 seconds (JVM running for 6.3)
+2022-07-04 11:15:53.367  INFO 2900 --- [http-nio-9002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 11:15:53.367  INFO 2900 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 11:15:53.379  INFO 2900 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-07-04 11:16:00.088  INFO 2900 --- [http-nio-9002-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-04 11:16:00.268  INFO 2900 --- [http-nio-9002-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-04 11:16:00.275 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.ItemMapper.selectList       : ==>  Preparing: SELECT id,category_id,name,price,image,item_desc FROM item 
+2022-07-04 11:16:00.302 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.ItemMapper.selectList       : ==> Parameters: 
+2022-07-04 11:16:00.324 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.ItemMapper.selectList       : <==      Total: 9
+2022-07-04 11:16:00.357 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 11:16:00.358 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 11:16:00.359 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:16:00.368 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 11:16:00.369 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 11:16:00.371 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:16:00.373 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 11:16:00.373 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 2(Integer)
+2022-07-04 11:16:00.376 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:16:00.378 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 11:16:00.378 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 2(Integer)
+2022-07-04 11:16:00.379 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:16:00.381 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 11:16:00.381 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 11:16:00.382 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:16:00.385 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 11:16:00.385 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 11:16:00.387 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:16:00.388 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 11:16:00.389 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 11:16:00.391 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:16:00.393 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 11:16:00.393 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 11:16:00.395 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:16:00.396 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==>  Preparing: SELECT id,name FROM category WHERE (id = ?) 
+2022-07-04 11:16:00.397 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : ==> Parameters: 1(Integer)
+2022-07-04 11:16:00.399 DEBUG 2900 --- [http-nio-9002-exec-5] c.t.m.mapper.CategoryMapper.selectOne    : <==      Total: 1
+2022-07-04 11:16:10.738 DEBUG 2900 --- [http-nio-9002-exec-7] c.t.mallserver.mapper.ItemMapper.delete  : ==>  Preparing: DELETE FROM item WHERE (id = ?) 
+2022-07-04 11:16:10.739 DEBUG 2900 --- [http-nio-9002-exec-7] c.t.mallserver.mapper.ItemMapper.delete  : ==> Parameters: 9(Integer)
+2022-07-04 11:16:10.744 DEBUG 2900 --- [http-nio-9002-exec-7] c.t.mallserver.mapper.ItemMapper.delete  : <==    Updates: 1
+2022-07-04 11:16:23.221 DEBUG 2900 --- [http-nio-9002-exec-6] c.t.mallserver.mapper.ItemMapper.delete  : ==>  Preparing: DELETE FROM item WHERE (id = ?) 
+2022-07-04 11:16:23.222 DEBUG 2900 --- [http-nio-9002-exec-6] c.t.mallserver.mapper.ItemMapper.delete  : ==> Parameters: 9(Integer)
+2022-07-04 11:16:23.223 DEBUG 2900 --- [http-nio-9002-exec-6] c.t.mallserver.mapper.ItemMapper.delete  : <==    Updates: 0
+2022-07-04 11:18:21.301 DEBUG 2900 --- [http-nio-9002-exec-10] c.t.mallserver.mapper.ItemMapper.delete  : ==>  Preparing: DELETE FROM item WHERE (id = ?) 
+2022-07-04 11:18:21.301 DEBUG 2900 --- [http-nio-9002-exec-10] c.t.mallserver.mapper.ItemMapper.delete  : ==> Parameters: 6(Integer)
+2022-07-04 11:18:21.301 DEBUG 2900 --- [http-nio-9002-exec-10] c.t.mallserver.mapper.ItemMapper.delete  : <==    Updates: 1
+2022-07-04 11:19:26.912 DEBUG 2900 --- [http-nio-9002-exec-2] c.t.mallserver.mapper.ItemMapper.insert  : ==>  Preparing: INSERT INTO item ( category_id, name, price, image, item_desc ) VALUES ( ?, ?, ?, ?, ? ) 
+2022-07-04 11:19:26.914 DEBUG 2900 --- [http-nio-9002-exec-2] c.t.mallserver.mapper.ItemMapper.insert  : ==> Parameters: 1(Integer), mate40(String), 700(Integer), 5.png(String), 华为手机(String)
+2022-07-04 11:19:26.916 DEBUG 2900 --- [http-nio-9002-exec-2] c.t.mallserver.mapper.ItemMapper.insert  : <==    Updates: 1
+2022-07-04 11:45:05.776  INFO 16368 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 16368 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 11:45:05.776 DEBUG 16368 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 11:45:05.776  INFO 16368 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 11:45:06.835  INFO 16368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 11:45:06.843  INFO 16368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 11:45:06.843  INFO 16368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 11:45:06.970  INFO 16368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 11:45:06.970  INFO 16368 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
+2022-07-04 11:45:09.091  INFO 16368 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 11:45:09.144  INFO 16368 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 11:45:09.329  INFO 16368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 11:45:09.329  INFO 16368 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 11:45:09.329  INFO 16368 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 11:45:09.355  INFO 16368 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 11:45:09.474  INFO 16368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingGET_1
+2022-07-04 11:45:09.474  INFO 16368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingHEAD_1
+2022-07-04 11:45:09.474  INFO 16368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPOST_1
+2022-07-04 11:45:09.474  INFO 16368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPUT_1
+2022-07-04 11:45:09.474  INFO 16368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPATCH_1
+2022-07-04 11:45:09.474  INFO 16368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingDELETE_1
+2022-07-04 11:45:09.474  INFO 16368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingOPTIONS_1
+2022-07-04 11:45:09.474  INFO 16368 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingTRACE_1
+2022-07-04 11:45:09.520  INFO 16368 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 4.122 seconds (JVM running for 5.832)
+2022-07-04 17:12:53.731  INFO 17944 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 17944 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 17:12:53.731 DEBUG 17944 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 17:12:53.731  INFO 17944 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 17:12:54.988  INFO 17944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 17:12:54.997  INFO 17944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 17:12:54.997  INFO 17944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 17:12:55.168  INFO 17944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 17:12:55.168  INFO 17944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1386 ms
+2022-07-04 17:12:57.811  INFO 17944 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 17:12:57.897  INFO 17944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 17:12:58.123  INFO 17944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 17:12:58.123  INFO 17944 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 17:12:58.129  INFO 17944 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 17:12:58.157  INFO 17944 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 17:12:58.219  INFO 17944 --- [http-nio-9002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-04 17:12:58.219  INFO 17944 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-04 17:12:58.230  INFO 17944 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2022-07-04 17:12:58.401  INFO 17944 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingGET_1
+2022-07-04 17:12:58.401  INFO 17944 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingHEAD_1
+2022-07-04 17:12:58.401  INFO 17944 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPOST_1
+2022-07-04 17:12:58.401  INFO 17944 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPUT_1
+2022-07-04 17:12:58.407  INFO 17944 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPATCH_1
+2022-07-04 17:12:58.407  INFO 17944 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingDELETE_1
+2022-07-04 17:12:58.407  INFO 17944 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingOPTIONS_1
+2022-07-04 17:12:58.412  INFO 17944 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingTRACE_1
+2022-07-04 17:12:58.520  INFO 17944 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 5.258 seconds (JVM running for 7.124)
+2022-07-04 17:13:41.081  INFO 17944 --- [http-nio-9002-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-04 17:13:41.285  INFO 17944 --- [http-nio-9002-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-04 17:13:41.296 DEBUG 17944 --- [http-nio-9002-exec-2] c.t.m.mapper.UserMapper.selectOne        : ==>  Preparing: SELECT id,name,password,city,create_time FROM user WHERE (name = ?) 
+2022-07-04 17:13:41.320 DEBUG 17944 --- [http-nio-9002-exec-2] c.t.m.mapper.UserMapper.selectOne        : ==> Parameters: sdu01(String)
+2022-07-04 17:13:41.338 DEBUG 17944 --- [http-nio-9002-exec-2] c.t.m.mapper.UserMapper.selectOne        : <==      Total: 1
+2022-07-04 17:23:07.874 DEBUG 17944 --- [http-nio-9002-exec-5] c.t.m.mapper.UserMapper.selectOne        : ==>  Preparing: SELECT id,name,password,city,create_time FROM user WHERE (name = ?) 
+2022-07-04 17:23:07.875 DEBUG 17944 --- [http-nio-9002-exec-5] c.t.m.mapper.UserMapper.selectOne        : ==> Parameters: a(String)
+2022-07-04 17:23:07.878 DEBUG 17944 --- [http-nio-9002-exec-5] c.t.m.mapper.UserMapper.selectOne        : <==      Total: 1
+2022-07-04 17:23:40.622 DEBUG 17944 --- [http-nio-9002-exec-8] c.t.m.mapper.UserMapper.selectOne        : ==>  Preparing: SELECT id,name,password,city,create_time FROM user WHERE (name = ?) 
+2022-07-04 17:23:40.623 DEBUG 17944 --- [http-nio-9002-exec-8] c.t.m.mapper.UserMapper.selectOne        : ==> Parameters: a1(String)
+2022-07-04 17:23:40.624 DEBUG 17944 --- [http-nio-9002-exec-8] c.t.m.mapper.UserMapper.selectOne        : <==      Total: 0
+2022-07-04 17:23:40.627 DEBUG 17944 --- [http-nio-9002-exec-8] c.t.mallserver.mapper.UserMapper.insert  : ==>  Preparing: INSERT INTO user ( name, password ) VALUES ( ?, ? ) 
+2022-07-04 17:23:40.628 DEBUG 17944 --- [http-nio-9002-exec-8] c.t.mallserver.mapper.UserMapper.insert  : ==> Parameters: a1(String), 1(String)
+2022-07-04 17:23:40.630 DEBUG 17944 --- [http-nio-9002-exec-8] c.t.mallserver.mapper.UserMapper.insert  : <==    Updates: 1
+2022-07-04 17:23:40.633 DEBUG 17944 --- [http-nio-9002-exec-8] c.t.m.mapper.UserMapper.selectOne        : ==>  Preparing: SELECT id,name,password,city,create_time FROM user WHERE (name = ? AND password = ?) 
+2022-07-04 17:23:40.633 DEBUG 17944 --- [http-nio-9002-exec-8] c.t.m.mapper.UserMapper.selectOne        : ==> Parameters: a1(String), 1(String)
+2022-07-04 17:23:40.635 DEBUG 17944 --- [http-nio-9002-exec-8] c.t.m.mapper.UserMapper.selectOne        : <==      Total: 1
+2022-07-04 22:45:02.153  INFO 22152 --- [main] c.tedu.mallserver.MallserverApplication  : Starting MallserverApplication on LAPTOP-41H2COLK with PID 22152 (E:\项目实训\classproject\mallserver\target\classes started by 缘梦（￣︶￣）似梦 in E:\项目实训\classproject\mallserver)
+2022-07-04 22:45:02.157 DEBUG 22152 --- [main] c.tedu.mallserver.MallserverApplication  : Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2022-07-04 22:45:02.158  INFO 22152 --- [main] c.tedu.mallserver.MallserverApplication  : No active profile set, falling back to default profiles: default
+2022-07-04 22:45:03.384  INFO 22152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-07-04 22:45:03.395  INFO 22152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-04 22:45:03.395  INFO 22152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-04 22:45:03.524  INFO 22152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-04 22:45:03.525  INFO 22152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2022-07-04 22:45:05.994  INFO 22152 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-04 22:45:06.066  INFO 22152 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-04 22:45:06.290  INFO 22152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-07-04 22:45:06.291  INFO 22152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2022-07-04 22:45:06.295  INFO 22152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-04 22:45:06.322  INFO 22152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-04 22:45:06.504  INFO 22152 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingGET_1
+2022-07-04 22:45:06.505  INFO 22152 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingHEAD_1
+2022-07-04 22:45:06.507  INFO 22152 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPOST_1
+2022-07-04 22:45:06.508  INFO 22152 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPUT_1
+2022-07-04 22:45:06.510  INFO 22152 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingPATCH_1
+2022-07-04 22:45:06.511  INFO 22152 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingDELETE_1
+2022-07-04 22:45:06.511  INFO 22152 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingOPTIONS_1
+2022-07-04 22:45:06.512  INFO 22152 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllUsingTRACE_1
+2022-07-04 22:45:06.573  INFO 22152 --- [main] c.tedu.mallserver.MallserverApplication  : Started MallserverApplication in 4.885 seconds (JVM running for 6.901)
